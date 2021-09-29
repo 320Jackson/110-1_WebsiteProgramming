@@ -9,6 +9,7 @@ body{
 
 .Page {
     padding: 3%;
+    padding-bottom: 6%;
 }
 .TopMenu {
     background-color: rgb(45, 45, 45);
@@ -57,6 +58,7 @@ body{
 
 .IntroText {
     color: white;
+    font-size: 125%;
 }
 
 button {
