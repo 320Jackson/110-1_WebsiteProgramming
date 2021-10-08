@@ -3,8 +3,51 @@
     <head>
         <meta charset="UTF-8">
         <title>Exercise Webpage</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="Elements.css">
     </head>
     <body>
-        
+        <div class="TitleBar">
+            <!--Title-->
+            <div>
+                <h1 class="Text">This is my webpage</h1>
+            </div>
+            <!--Control Panel-->
+            <div class="ControlPanel">
+                <button onclick="window.open('https:\/\/ntut.club')">NPC Website</button>
+                <button onclick="window.open('https:\/\/www.debian.org')">Debian</button>
+            </div>
+        </div>
+        <div class="ContentFrame">
+            <div class="leftContent">
+                <img src="./image/Screenshot from 2021-09-28 22-58-59.png" class="myPhoto">
+                <br>
+                <strong style="font-size: xx-large;" class="">Jackson Wu</strong>
+                <br>
+                <strong class="Intro">Director of NPC 5<sup>th</sup></strong>
+                <br>
+                <strong class="Intro">Studying in NTUT CSIE</strong>
+            </div>
+            <div class="rightContent">
+                <p class="SubTitle">About me</p>
+                <hr>
+                <p class="Intro">Jackson Wu <em>(吳聖翊)</em></p>
+                <address class="Intro">Taipei Neihu, R.O.C. (MRT Dahu Park Station)</address>
+                <p class="Intro">Studying in <abbr title="National Taipei University of Technology Computer Science Information Engineering">NTUT CSIE</abbr></p>
+                <p class="Intro">Director of <abbr title="NTUT Programming Club">NPC</abbr> 5th</p>
+                <p class="Intro">Graduate from TAIVS Info</p>
+                <p class="Intro">Director of DACSC 20th</p>
+                <hr>
+                <ul>
+                    <li><a href="https://t.me/C320Jackson" class="IntroText">Telegram</a></li>
+                    <li><a href="https://github.com/320Jackson" class="IntroText">Github</a></li>
+                    <li><a href="mailto:jackson8983@outlook.com" class="IntroText">E-mail：jackson8963@outlook.com</a></li>
+                    <li><a href="tel:+886966680137" class="IntroText">Mobile Phone：0966680137</a></li>
+                    <li>Don't try to contact me by LINE.</li>
+                    <li><del>LINE is the best communication software.</del><br><ins>LINE is the worst communication software.</ins></li>
+                </ul>
+            </div>
+        </div>
+        <footer>Powered by 2021 NHITC</footer>
     </body>
 </html>
