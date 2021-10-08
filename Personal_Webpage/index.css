@@ -14,6 +14,8 @@ body{
 .TopMenu {
     background-color: rgb(45, 45, 45);
     padding: 2%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .WebsiteTitle {
@@ -28,7 +30,6 @@ body{
 
 .TopControlPanel {
     display: inline;
-    padding-left: 25%;
 }
 
 .FootText {
