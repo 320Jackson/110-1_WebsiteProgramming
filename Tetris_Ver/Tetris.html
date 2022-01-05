@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>俄羅斯方塊</title>
+        <link rel="stylesheet" href="Tetris.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="grid"></div>
+            <div class="info">
+                <h2>NEXT</h2>
+                <div class="mini-grid"></div>
+                <h3>Score: <span id="score">0</span></h3>
+                <button onclick="startGame()">Start</button>
+                <button id="start-button">Resume / Pause</button>
+                <div class="intro">
+                    <div class="keyBoard0" disabled>
+                        <button class="rotate">Ctrl</button><span>Rotate</span></div>
+                        <button onclick="window.location.reload()">Restart</button>
+                    <div class="keyBoard1" disabled>Rotate</div>
+                    <div class="keyBoard2" disabled>
+                        <button class="upForMobile">↑</button>
+                    </div>
+                    <div class="keyBoard3" disabled>
+                        <div>
+                            <button class="leftForMobile">←</button>
+                            <P>Right</P>
+                        </div>
+                        <div>
+                            <button class="downForMobile">↓</button>
+                            <P>Down</P>
+                        </div>
+                        <div>
+                            <button class="rightForMobile">→</button>
+                            <P>Left</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="Tetris.js"></script>
+    </body>
+</html>

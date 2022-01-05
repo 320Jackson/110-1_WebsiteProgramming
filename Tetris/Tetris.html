@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tetris</title>
+        <link rel="stylesheet" href="Tetris.css">
+    </head>
+    <body>
+        <div id="Frame">
+			<div id="main">
+			</div>
+			<div class="CtrlPanel">
+                <div class="Elements">
+                    <span id="Score" class="ScoreInfo">分數：0</span>
+                    <button onclick="start()" class="btnStart">開始</button>
+                    <button onclick="stop()" class="btnEnd">結束</button>
+                </div>
+			</div>
+		</div>
+        <script src="Tetris_Line.js"></script>
+        <script src="Tetris_Game.js"></script>
+        <script src="Tetris_Model.js"></script>
+    </body>
+</html>
