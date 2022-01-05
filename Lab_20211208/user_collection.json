@@ -1,0 +1,26 @@
+[
+    {
+        "city": "Fontana",
+        "country": "United States",
+        "gender": "female",
+        "name": "Victoria Palmer",
+        "phone": "(560)-642-6658",
+        "picture": "https://randomuser.me/api/portraits/thumb/women/79.jpg"
+    },
+    {
+        "city": "Siikainen",
+        "country": "Finland",
+        "gender": "male",
+        "name": "Eemil Moilanen",
+        "phone": "07-651-899",
+        "picture": "https://randomuser.me/api/portraits/thumb/men/18.jpg"
+    },
+    {
+        "city": "Thusis",
+        "country": "Switzerland",
+        "gender": "female",
+        "name": "Elisabete Lemaire",
+        "phone": "075 705 35 17",
+        "picture": "https://randomuser.me/api/portraits/thumb/women/14.jpg"
+    }
+]
