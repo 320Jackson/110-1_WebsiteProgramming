@@ -1,0 +1,55 @@
+body {
+    background: royalblue;
+    margin: 0;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 1vw;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    color: white;
+    border: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#content {
+    margin-top: 120px;
+    display: flex;
+}
+
+article {
+    display: flex;
+}
+
+article div {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    position: fixed;
+    padding: 1%;
+    width: 100%;
+    bottom: 0;
+}
+
+.logo {
+    width: 20vw;
+}
