@@ -50,3 +50,7 @@ del {
 ins {
     background-color: limegreen;
 }
+
+hr {
+    border: 2px dashed white;
+}
